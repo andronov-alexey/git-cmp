@@ -8,6 +8,8 @@ and want to make sure new version didn't introduce any unintended code lines or 
 - you want to see the differences between the current branch (`HEAD`) and other branch (`git cmp other_branch`)
 - you want to see the differences between any two branches (`git cmp branch1 branch2`)
 
+## Important: The same functionality is provided out-of-the-box by [git-diff](https://git-scm.com/docs/git-diff) tool
+
 ## Usage Example
 1. Suppose you started with the following repository state:  
 ![initial_state](https://github.com/andronov-alexey/git-cmp/blob/master/docs/screenshots/Initial%20state.PNG)
