@@ -2,13 +2,13 @@
 
 Simple command-line tool for fast comparison between two branches
 
+## NB: The same functionality is provided out-of-the-box by [git-diff](https://git-scm.com/docs/git-diff) tool
+
 ## How it's useful
 - you performed rebase with commit fixups/reordering/conflict resolutions  
 and want to make sure new version didn't introduce any unintended code lines or dropped useful ones
 - you want to see the differences between the current branch (`HEAD`) and other branch (`git cmp other_branch`)
 - you want to see the differences between any two branches (`git cmp branch1 branch2`)
-
-## Important: The same functionality is provided out-of-the-box by [git-diff](https://git-scm.com/docs/git-diff) tool
 
 ## Usage Example
 1. Suppose you started with the following repository state:  
